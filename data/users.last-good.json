@@ -1,0 +1,1692 @@
+[
+  {
+    "id": "7914487d-6c47-4b73-8cf4-2a49f55c5bde",
+    "username": "Tanklyplayz",
+    "email": "monkeyvrgames@gmail.com",
+    "passwordHash": "$2a$10$CjghtA4ptEniVyOx7zdwyOVFImUWrbma.eW/NRAoBctR7RYkb8Zuy",
+    "birthMonth": "Jun",
+    "birthDay": "7",
+    "birthYear": "2000",
+    "avatar": "",
+    "createdAt": "2026-05-26T01:22:58.340Z",
+    "online": true,
+    "avatarStyle": {
+      "skin": "#f0d0a7",
+      "shirt": "#2268d8",
+      "pants": "#252b35",
+      "hair": "#7a4a1d",
+      "accessory": "none"
+    },
+    "inventory": [
+      "starter-shirt",
+      "cube-cap",
+      "tycoon-badge-pin",
+      "creator-crown",
+      "ban-hammer",
+      "speed-boots",
+      "wing-pack",
+      "survivor-vest",
+      "neon-visor"
+    ],
+    "equipped": [
+      "starter-shirt",
+      "speed-boots",
+      "wing-pack",
+      "survivor-vest",
+      "neon-visor",
+      "tycoon-badge-pin",
+      "ban-hammer",
+      "creator-crown"
+    ],
+    "cubbux": 2711000,
+    "transactions": [
+      {
+        "id": "2ac06d47-4877-4027-9a5a-066091a91535",
+        "type": "owner_grant",
+        "label": "Owner grant from Tanklyplayz",
+        "amount": 100000,
+        "createdAt": "2026-05-26T03:31:00.642Z"
+      },
+      {
+        "id": "4748551d-5fba-4bbb-bb35-e57728efde2b",
+        "type": "owner_grant",
+        "label": "Owner grant from Tanklyplayz",
+        "amount": 100000,
+        "createdAt": "2026-05-26T03:31:00.559Z"
+      },
+      {
+        "id": "63cbeaee-c38a-482e-8efb-14b87b46af61",
+        "type": "owner_grant",
+        "label": "Owner grant from Tanklyplayz",
+        "amount": 100000,
+        "createdAt": "2026-05-26T03:31:00.489Z"
+      },
+      {
+        "id": "bcdb4572-7ffb-423f-8bc9-36677ada7487",
+        "type": "owner_grant",
+        "label": "Owner grant from Tanklyplayz",
+        "amount": 100000,
+        "createdAt": "2026-05-26T03:31:00.376Z"
+      },
+      {
+        "id": "c55de1e0-7933-4aa3-8e79-e629b99844ac",
+        "type": "owner_grant",
+        "label": "Owner grant from Tanklyplayz",
+        "amount": 100000,
+        "createdAt": "2026-05-26T03:31:00.312Z"
+      },
+      {
+        "id": "7cc41f9c-725e-4129-ae8b-00578f12ecd7",
+        "type": "owner_grant",
+        "label": "Owner grant from Tanklyplayz",
+        "amount": 100000,
+        "createdAt": "2026-05-26T03:31:00.151Z"
+      },
+      {
+        "id": "1283ee45-c9dc-42d2-9ead-a788c0d028a0",
+        "type": "owner_grant",
+        "label": "Owner grant from Tanklyplayz",
+        "amount": 100000,
+        "createdAt": "2026-05-26T03:31:00.089Z"
+      },
+      {
+        "id": "55cb264a-b8f7-4685-be5f-fe448119a470",
+        "type": "owner_grant",
+        "label": "Owner grant from Tanklyplayz",
+        "amount": 100000,
+        "createdAt": "2026-05-26T03:31:00.001Z"
+      },
+      {
+        "id": "4411cd71-a880-4408-abc4-bcaeaf79b7d7",
+        "type": "owner_grant",
+        "label": "Owner grant from Tanklyplayz",
+        "amount": 100000,
+        "createdAt": "2026-05-26T03:30:59.921Z"
+      },
+      {
+        "id": "ec88e753-0ccf-477d-ad21-5c8651352f0b",
+        "type": "owner_grant",
+        "label": "Owner grant from Tanklyplayz",
+        "amount": 100000,
+        "createdAt": "2026-05-26T03:30:59.858Z"
+      },
+      {
+        "id": "7420e7d0-da01-40a4-a410-da6d74db1151",
+        "type": "owner_grant",
+        "label": "Owner grant from Tanklyplayz",
+        "amount": 100000,
+        "createdAt": "2026-05-26T03:30:59.706Z"
+      },
+      {
+        "id": "392b9441-f23c-4ae2-bc62-7b3bb80ece92",
+        "type": "owner_grant",
+        "label": "Owner grant from Tanklyplayz",
+        "amount": 100000,
+        "createdAt": "2026-05-26T03:30:59.568Z"
+      },
+      {
+        "id": "3fc3fc02-2866-48cf-894b-9978617a38fb",
+        "type": "owner_grant",
+        "label": "Owner grant from Tanklyplayz",
+        "amount": 100000,
+        "createdAt": "2026-05-26T03:30:59.538Z"
+      },
+      {
+        "id": "28b683a7-86b6-4c4e-b6c0-33abe9493cdf",
+        "type": "owner_grant",
+        "label": "Owner grant from Tanklyplayz",
+        "amount": 100000,
+        "createdAt": "2026-05-26T03:30:59.433Z"
+      },
+      {
+        "id": "8e00fc3e-b236-41d9-b25d-baa3f688fe76",
+        "type": "owner_grant",
+        "label": "Owner grant from Tanklyplayz",
+        "amount": 100000,
+        "createdAt": "2026-05-26T03:30:59.369Z"
+      },
+      {
+        "id": "7017a74e-921e-422e-82cc-33329731a9c2",
+        "type": "owner_grant",
+        "label": "Owner grant from Tanklyplayz",
+        "amount": 100000,
+        "createdAt": "2026-05-26T03:30:59.242Z"
+      },
+      {
+        "id": "7786ba41-d2ff-4e46-9681-aa0da10f88a5",
+        "type": "owner_grant",
+        "label": "Owner grant from Tanklyplayz",
+        "amount": 100000,
+        "createdAt": "2026-05-26T03:30:58.865Z"
+      },
+      {
+        "id": "17e7544e-c611-4249-8cb6-08b25d701a34",
+        "type": "owner_grant",
+        "label": "Owner grant from Tanklyplayz",
+        "amount": 100000,
+        "createdAt": "2026-05-26T03:30:58.801Z"
+      },
+      {
+        "id": "558ed2a0-da15-4dc0-9c3f-796deb0aad85",
+        "type": "owner_grant",
+        "label": "Owner grant from Tanklyplayz",
+        "amount": 100000,
+        "createdAt": "2026-05-26T03:30:58.728Z"
+      },
+      {
+        "id": "3d3f15c6-90a4-450d-86ee-ca23a7ec3741",
+        "type": "owner_grant",
+        "label": "Owner grant from Tanklyplayz",
+        "amount": 100000,
+        "createdAt": "2026-05-26T03:30:58.666Z"
+      },
+      {
+        "id": "cf358b29-ca31-4bfd-b83f-abd6ac0bb1a1",
+        "type": "owner_grant",
+        "label": "Owner grant from Tanklyplayz",
+        "amount": 100000,
+        "createdAt": "2026-05-26T03:30:58.576Z"
+      },
+      {
+        "id": "dced3d67-25ff-4c79-8f4a-5250ea1a0e3f",
+        "type": "owner_grant",
+        "label": "Owner grant from Tanklyplayz",
+        "amount": 100000,
+        "createdAt": "2026-05-26T03:30:58.506Z"
+      },
+      {
+        "id": "35c59f41-783b-4f0e-b6b1-b54cc9c4d6cd",
+        "type": "owner_grant",
+        "label": "Owner grant from Tanklyplayz",
+        "amount": 100000,
+        "createdAt": "2026-05-26T03:30:58.424Z"
+      },
+      {
+        "id": "f99d2939-627e-4e03-ac70-065eaeaa9b63",
+        "type": "owner_grant",
+        "label": "Owner grant from Tanklyplayz",
+        "amount": 100000,
+        "createdAt": "2026-05-26T03:30:58.290Z"
+      },
+      {
+        "id": "3ceef023-36fe-4442-8576-01bd9f1d8a1b",
+        "type": "owner_grant",
+        "label": "Owner grant from Tanklyplayz",
+        "amount": 100000,
+        "createdAt": "2026-05-26T03:30:58.218Z"
+      },
+      {
+        "id": "ef541ca6-85f5-4871-ba13-e67723d2076d",
+        "type": "owner_grant",
+        "label": "Owner grant from Tanklyplayz",
+        "amount": 100000,
+        "createdAt": "2026-05-26T03:30:58.084Z"
+      },
+      {
+        "id": "2ac11a1c-a30c-4485-9eed-6d0c6c349ef2",
+        "type": "cubbux_card_purchase",
+        "label": "Creator Pack paid with card ending 8854",
+        "amount": 11000,
+        "createdAt": "2026-05-26T03:30:26.170Z"
+      },
+      {
+        "id": "707cf1cc-840b-417d-b277-5102a26b335e",
+        "type": "marketplace_purchase",
+        "label": "Neon Visor",
+        "amount": -120,
+        "createdAt": "2026-05-26T01:26:27.027Z"
+      },
+      {
+        "id": "f7a589af-5939-4e56-a911-8f211a10cfe7",
+        "type": "marketplace_purchase",
+        "label": "Safe Zone Survivor Vest",
+        "amount": -85,
+        "createdAt": "2026-05-26T01:26:26.527Z"
+      },
+      {
+        "id": "dcc39b1b-24ab-4aca-884d-5ad02bcc7f30",
+        "type": "marketplace_purchase",
+        "label": "Sky Runner Wing Pack",
+        "amount": -180,
+        "createdAt": "2026-05-26T01:26:25.012Z"
+      },
+      {
+        "id": "cfd109aa-073a-4c8e-8149-8fdfab37a417",
+        "type": "marketplace_purchase",
+        "label": "Speed Trial Boots",
+        "amount": -95,
+        "createdAt": "2026-05-26T01:26:24.179Z"
+      }
+    ],
+    "role": "owner",
+    "gameSettings": {
+      "cameraSensitivity": 1,
+      "cameraInverted": true,
+      "smoothZoom": true,
+      "firstPersonZoom": true,
+      "cameraFollow": "free"
+    },
+    "settings": {
+      "notifications": {
+        "friendRequests": true,
+        "messages": true,
+        "gameUpdates": true,
+        "moderation": true
+      },
+      "privacy": {
+        "profileVisible": true,
+        "showOnline": true,
+        "allowFriendRequests": true,
+        "allowJoin": true,
+        "allowMessages": true
+      },
+      "browser": {
+        "reduceMotion": false,
+        "showPerformance": false,
+        "uiScale": 1
+      }
+    },
+    "groups": [
+      "cubixia-studios",
+      "tycoon-builders",
+      "survival-squad",
+      "avatar-creators"
+    ],
+    "bio": "I'm Tanklyplayz. I am the CEO of CUBIXIA. I welcome you to the newest game to exist :D",
+    "badges": [
+      "Founder",
+      "CREATOR/OWNER",
+      "CUBIXIA"
+    ],
+    "achievements": [
+      "First Login"
+    ],
+    "friends": [
+      "John_Doe",
+      "CUBIXIA"
+    ],
+    "incomingRequests": [],
+    "outgoingRequests": [],
+    "notifications": [
+      {
+        "id": "47f0f0df-0580-46dc-9497-52c22204a357",
+        "type": "cubbux_grant",
+        "from": "Tanklyplayz",
+        "text": "Tanklyplayz granted you 100,000 CUBBUX.",
+        "createdAt": "2026-05-26T03:31:00.642Z"
+      },
+      {
+        "id": "407cbd00-7a0c-4d3c-87a6-9dc7f628c62a",
+        "type": "cubbux_grant",
+        "from": "Tanklyplayz",
+        "text": "Tanklyplayz granted you 100,000 CUBBUX.",
+        "createdAt": "2026-05-26T03:31:00.559Z"
+      },
+      {
+        "id": "4e1e93a8-3248-43d6-bdea-0167bd5cf7ad",
+        "type": "cubbux_grant",
+        "from": "Tanklyplayz",
+        "text": "Tanklyplayz granted you 100,000 CUBBUX.",
+        "createdAt": "2026-05-26T03:31:00.489Z"
+      },
+      {
+        "id": "24c96a8b-d391-466d-b3f3-4d0fe1b12af7",
+        "type": "cubbux_grant",
+        "from": "Tanklyplayz",
+        "text": "Tanklyplayz granted you 100,000 CUBBUX.",
+        "createdAt": "2026-05-26T03:31:00.376Z"
+      },
+      {
+        "id": "e8afc1b6-ef0a-44fb-a2fb-88827209a180",
+        "type": "cubbux_grant",
+        "from": "Tanklyplayz",
+        "text": "Tanklyplayz granted you 100,000 CUBBUX.",
+        "createdAt": "2026-05-26T03:31:00.312Z"
+      },
+      {
+        "id": "c2c7c172-3794-4d80-8d53-c0e2b63a282c",
+        "type": "cubbux_grant",
+        "from": "Tanklyplayz",
+        "text": "Tanklyplayz granted you 100,000 CUBBUX.",
+        "createdAt": "2026-05-26T03:31:00.151Z"
+      },
+      {
+        "id": "8412fbf5-1d95-40c2-8857-2a359a5edc41",
+        "type": "cubbux_grant",
+        "from": "Tanklyplayz",
+        "text": "Tanklyplayz granted you 100,000 CUBBUX.",
+        "createdAt": "2026-05-26T03:31:00.089Z"
+      },
+      {
+        "id": "ba348064-ca02-4aec-9cc8-2d2ee61eb10b",
+        "type": "cubbux_grant",
+        "from": "Tanklyplayz",
+        "text": "Tanklyplayz granted you 100,000 CUBBUX.",
+        "createdAt": "2026-05-26T03:31:00.001Z"
+      },
+      {
+        "id": "793eaa96-8551-4a9f-85ae-3abd4e5ea821",
+        "type": "cubbux_grant",
+        "from": "Tanklyplayz",
+        "text": "Tanklyplayz granted you 100,000 CUBBUX.",
+        "createdAt": "2026-05-26T03:30:59.921Z"
+      },
+      {
+        "id": "cf0bdcf9-b194-4cb8-b23f-cafa0336ab19",
+        "type": "cubbux_grant",
+        "from": "Tanklyplayz",
+        "text": "Tanklyplayz granted you 100,000 CUBBUX.",
+        "createdAt": "2026-05-26T03:30:59.858Z"
+      },
+      {
+        "id": "3388c033-de52-46b4-beb2-4048d3039281",
+        "type": "cubbux_grant",
+        "from": "Tanklyplayz",
+        "text": "Tanklyplayz granted you 100,000 CUBBUX.",
+        "createdAt": "2026-05-26T03:30:59.706Z"
+      },
+      {
+        "id": "eaee27c4-25ab-4e7f-ad44-53f512912dd2",
+        "type": "cubbux_grant",
+        "from": "Tanklyplayz",
+        "text": "Tanklyplayz granted you 100,000 CUBBUX.",
+        "createdAt": "2026-05-26T03:30:59.569Z"
+      },
+      {
+        "id": "27aa247e-4a72-4a77-ab1e-6f33a95f7fe1",
+        "type": "cubbux_grant",
+        "from": "Tanklyplayz",
+        "text": "Tanklyplayz granted you 100,000 CUBBUX.",
+        "createdAt": "2026-05-26T03:30:59.538Z"
+      },
+      {
+        "id": "d9159b78-09e0-4922-99c8-e762ac8ceb73",
+        "type": "cubbux_grant",
+        "from": "Tanklyplayz",
+        "text": "Tanklyplayz granted you 100,000 CUBBUX.",
+        "createdAt": "2026-05-26T03:30:59.433Z"
+      },
+      {
+        "id": "82bc5a51-4413-45b2-aa7e-6b7e80fe7892",
+        "type": "cubbux_grant",
+        "from": "Tanklyplayz",
+        "text": "Tanklyplayz granted you 100,000 CUBBUX.",
+        "createdAt": "2026-05-26T03:30:59.369Z"
+      },
+      {
+        "id": "27049d10-87cf-4733-9b46-efab59cac036",
+        "type": "cubbux_grant",
+        "from": "Tanklyplayz",
+        "text": "Tanklyplayz granted you 100,000 CUBBUX.",
+        "createdAt": "2026-05-26T03:30:59.242Z"
+      },
+      {
+        "id": "59174786-2b0e-4983-b71a-49bf1abb7872",
+        "type": "cubbux_grant",
+        "from": "Tanklyplayz",
+        "text": "Tanklyplayz granted you 100,000 CUBBUX.",
+        "createdAt": "2026-05-26T03:30:58.865Z"
+      },
+      {
+        "id": "1c596b1b-6c32-4f1e-bc90-916375bce51d",
+        "type": "cubbux_grant",
+        "from": "Tanklyplayz",
+        "text": "Tanklyplayz granted you 100,000 CUBBUX.",
+        "createdAt": "2026-05-26T03:30:58.801Z"
+      },
+      {
+        "id": "c150c207-1828-4482-8805-c1581bb9388c",
+        "type": "cubbux_grant",
+        "from": "Tanklyplayz",
+        "text": "Tanklyplayz granted you 100,000 CUBBUX.",
+        "createdAt": "2026-05-26T03:30:58.728Z"
+      },
+      {
+        "id": "7112c115-4032-4b68-a5a5-4b0f9de7287a",
+        "type": "cubbux_grant",
+        "from": "Tanklyplayz",
+        "text": "Tanklyplayz granted you 100,000 CUBBUX.",
+        "createdAt": "2026-05-26T03:30:58.666Z"
+      },
+      {
+        "id": "6071b7f8-7dfb-424d-8153-bb19b7a9c5fa",
+        "type": "cubbux_grant",
+        "from": "Tanklyplayz",
+        "text": "Tanklyplayz granted you 100,000 CUBBUX.",
+        "createdAt": "2026-05-26T03:30:58.576Z"
+      },
+      {
+        "id": "7b2b28da-5794-4be2-a204-942b9d95ad21",
+        "type": "cubbux_grant",
+        "from": "Tanklyplayz",
+        "text": "Tanklyplayz granted you 100,000 CUBBUX.",
+        "createdAt": "2026-05-26T03:30:58.506Z"
+      },
+      {
+        "id": "06ecb015-ed4f-4c0a-89c3-0b9b68460f0e",
+        "type": "cubbux_grant",
+        "from": "Tanklyplayz",
+        "text": "Tanklyplayz granted you 100,000 CUBBUX.",
+        "createdAt": "2026-05-26T03:30:58.424Z"
+      },
+      {
+        "id": "060944b4-0c58-422e-a5bd-2b4f0996f2d1",
+        "type": "cubbux_grant",
+        "from": "Tanklyplayz",
+        "text": "Tanklyplayz granted you 100,000 CUBBUX.",
+        "createdAt": "2026-05-26T03:30:58.291Z"
+      },
+      {
+        "id": "d9e1d180-82a4-4173-a16a-fcd24cfd4581",
+        "type": "cubbux_grant",
+        "from": "Tanklyplayz",
+        "text": "Tanklyplayz granted you 100,000 CUBBUX.",
+        "createdAt": "2026-05-26T03:30:58.218Z"
+      },
+      {
+        "id": "26979abf-8981-4f09-b72a-eb10522a2780",
+        "type": "cubbux_grant",
+        "from": "Tanklyplayz",
+        "text": "Tanklyplayz granted you 100,000 CUBBUX.",
+        "createdAt": "2026-05-26T03:30:58.172Z"
+      },
+      {
+        "id": "eed89e10-3214-44a4-b47a-3e4fe7a9cb8a",
+        "type": "moderation_action",
+        "from": "CUBIXIA",
+        "text": "Tanklyplayz used WARN on John_Doe. Reason: Please be resectful.",
+        "createdAt": "2026-05-26T03:26:30.162Z"
+      },
+      {
+        "id": "cf4a89b5-1a79-4b14-8595-3b11c52ffbf3",
+        "type": "friend_accept",
+        "from": "John_Doe",
+        "text": "John_Doe accepted your friend request.",
+        "createdAt": "2026-05-26T03:22:23.097Z"
+      },
+      {
+        "id": "01fe9c24-724b-4a0a-8f4e-edee691e0cd6",
+        "type": "moderation_action",
+        "from": "CUBIXIA",
+        "text": "Tanklyplayz used WARN on John_Doe. Reason: Please, Be respectful towards everyone on our platform. Follow all Guidelines, and re-read the Terms Of Service!\n",
+        "createdAt": "2026-05-26T03:00:10.084Z"
+      },
+      {
+        "id": "8b996ac6-dd19-4df5-9b5d-c1cd85236f67",
+        "type": "moderation_action",
+        "from": "CUBIXIA",
+        "text": "Tanklyplayz used WARN on John_Doe. Reason: Please be resectful.",
+        "createdAt": "2026-05-26T02:27:49.842Z"
+      },
+      {
+        "id": "be1e7c85-2803-45e3-a798-1025676e051d",
+        "type": "moderation_action",
+        "from": "CUBIXIA",
+        "text": "Tanklyplayz used WARN on John_Doe. Reason: Please be resectful.",
+        "createdAt": "2026-05-26T02:27:27.387Z"
+      },
+      {
+        "id": "42e45e12-370e-4003-bcb1-5e7f16383650",
+        "type": "report",
+        "reportId": "ec0a05cd-b83b-4ba7-b66c-c699a3463909",
+        "from": "John_Doe",
+        "target": "Cubixia: Survival",
+        "targetType": "Person",
+        "abuseType": "Cheating",
+        "details": "UI smoke test report reason",
+        "text": "Report from John_Doe: Cheating involving Person Cubixia: Survival. Reason: UI smoke test report reason",
+        "createdAt": "2026-05-26T01:59:37.731Z"
+      },
+      {
+        "id": "0c3b4ca1-9057-46fc-b4fc-7c93aadb5e17",
+        "type": "report",
+        "reportId": "14c93dd1-6179-4f78-819e-eacb5ccaaa0b",
+        "from": "John_Doe",
+        "target": "Cubixia Coaster Tycoon",
+        "targetType": "Experience",
+        "abuseType": "Bad language",
+        "details": "bad words :)(",
+        "text": "Report from John_Doe: Bad language involving Experience Cubixia Coaster Tycoon. Reason: bad words :)(",
+        "createdAt": "2026-05-26T01:58:09.032Z"
+      },
+      {
+        "id": "6cae51ec-a6f9-4fa9-a18d-355ca03ba54e",
+        "type": "report",
+        "reportId": "85961fdb-9b47-4abd-be91-25afaa667b1b",
+        "from": "Report55685",
+        "target": "Recover71632",
+        "targetType": "Person",
+        "abuseType": "Cheating",
+        "details": "Testing moderation report reason path",
+        "text": "Report from Report55685: Cheating involving Person Recover71632. Reason: Testing moderation report reason path",
+        "createdAt": "2026-05-26T01:57:35.875Z"
+      },
+      {
+        "id": "544113cb-8068-4314-9e06-b147f51b3c9f",
+        "type": "report",
+        "from": "Tanklyplayz",
+        "text": "Report from Tanklyplayz: Cheating involving Cubixia: Survival. HES BEING REALLY MEAN I DONT LIke\n THAT NOW IM SAD\n",
+        "createdAt": "2026-05-26T01:37:04.716Z"
+      },
+      {
+        "id": "776b43ce-2e3f-4fa9-b452-eb7276edb7b9",
+        "type": "report",
+        "from": "Tanklyplayz",
+        "text": "Report from Tanklyplayz: Cheating involving Cubixia: Survival. HES BEING REALLY MEAN I DONT LIke\n THAT NOW IM SAD\n",
+        "createdAt": "2026-05-26T01:37:04.373Z"
+      },
+      {
+        "id": "4347b3c2-0aa2-4de1-825f-021652b420f5",
+        "type": "report",
+        "from": "Tanklyplayz",
+        "text": "Report from Tanklyplayz: Cheating involving Cubixia: Survival. HES BEING REALLY MEAN I DONT LIke\n THAT NOW IM SAD\n",
+        "createdAt": "2026-05-26T01:37:04.051Z"
+      },
+      {
+        "id": "dac50b75-90fa-4cff-b46f-56a07b621188",
+        "type": "report",
+        "from": "Tanklyplayz",
+        "text": "Report from Tanklyplayz: Cheating involving Cubixia: Survival. HES BEING REALLY MEAN I DONT LIke\n THAT NOW IM SAD\n",
+        "createdAt": "2026-05-26T01:37:02.447Z"
+      },
+      {
+        "id": "ad5ee6ae-3d32-4be7-b553-829670254d7a",
+        "type": "report",
+        "from": "Tanklyplayz",
+        "text": "Report from Tanklyplayz: Cheating involving Cubixia: Survival. HES BEING REALLY MEAN I DONT LIke\n THAT NOW IM SAD\n",
+        "createdAt": "2026-05-26T01:36:59.205Z"
+      },
+      {
+        "id": "3db1c8f3-7cf8-41e7-905d-10f1c97807a1",
+        "type": "report",
+        "from": "Tanklyplayz",
+        "text": "Report from Tanklyplayz: Cheating involving Cubixia: Survival. HES BEING REALLY MEAN I DONT LIEK THAT NOW IM SAD\n",
+        "createdAt": "2026-05-26T01:36:49.768Z"
+      },
+      {
+        "id": "66b326bc-70f9-4ad8-b1f6-85767988f126",
+        "type": "report",
+        "from": "Tanklyplayz",
+        "text": "Report from Tanklyplayz: Cheating involving Cubixia: Survival. HES BEING REALLY MEAN I DONT LIEK THAT NOW IM SAD\n",
+        "createdAt": "2026-05-26T01:36:48.629Z"
+      },
+      {
+        "id": "db070553-7ed2-414a-becd-9768e6f59fc0",
+        "type": "report",
+        "from": "Tanklyplayz",
+        "text": "Report from Tanklyplayz: Cheating involving Cubixia: Survival. HES BEING REALLY MEAN I DONT LIEK THAT NOW IM SAD\n",
+        "createdAt": "2026-05-26T01:36:48.229Z"
+      },
+      {
+        "id": "3d7918c5-d049-44a5-a30f-cb4adc52b16e",
+        "type": "group_join",
+        "from": "Avatar Creators",
+        "text": "You joined Avatar Creators.",
+        "createdAt": "2026-05-26T01:27:19.436Z"
+      },
+      {
+        "id": "145944dd-ff8e-41e6-af36-b65fa6af10c3",
+        "type": "group_join",
+        "from": "Survival Squad",
+        "text": "You joined Survival Squad.",
+        "createdAt": "2026-05-26T01:27:18.798Z"
+      },
+      {
+        "id": "50060f93-764b-4a61-a287-15dce86f698e",
+        "type": "group_join",
+        "from": "Tycoon Builders",
+        "text": "You joined Tycoon Builders.",
+        "createdAt": "2026-05-26T01:27:18.199Z"
+      },
+      {
+        "id": "fe9fb1de-87f7-4113-9350-af4995490bec",
+        "type": "group_join",
+        "from": "Cubixia Studios",
+        "text": "You joined Cubixia Studios.",
+        "createdAt": "2026-05-26T01:27:16.454Z"
+      }
+    ],
+    "lastOnline": "2026-05-26T03:39:34.590Z",
+    "currentGame": "",
+    "banned": false,
+    "banReason": "",
+    "worldState": {
+      "gameId": "cubixia-survival",
+      "x": 29.310685223202718,
+      "y": 0.8,
+      "z": 2.261548380153885,
+      "rot": 6.002129134749453,
+      "hp": 97.80000000000001,
+      "cash": 517,
+      "updatedAt": 1779766361344
+    },
+    "passwordResetCode": "",
+    "passwordResetExpires": 0,
+    "lastPlayed": {
+      "id": "cubixia-survival",
+      "title": "Cubixia: Survival",
+      "progress": "Left server",
+      "xp": 140,
+      "currency": 517
+    },
+    "timeoutUntil": 0,
+    "timeoutReason": "",
+    "banUntil": 0,
+    "moderationNotice": null
+  },
+  {
+    "id": "7d239fc5-655c-4916-8ced-f7b4ad2301cb",
+    "username": "CUBIXIA",
+    "email": "gglitch145@gmail.com",
+    "passwordHash": "$2a$10$NpI138nSadCQZ1JVFf6mH.//8MBKUXX1oGrNsVnf70wWcc/N396S2",
+    "birthMonth": "Jun",
+    "birthDay": "7",
+    "birthYear": "2000",
+    "avatar": "",
+    "createdAt": "2026-05-26T01:28:28.666Z",
+    "online": false,
+    "avatarStyle": {
+      "skin": "#f0d0a7",
+      "shirt": "#2268d8",
+      "pants": "#252b35",
+      "hair": "#7a4a1d",
+      "accessory": "none"
+    },
+    "inventory": [
+      "starter-shirt",
+      "cube-cap",
+      "tycoon-badge-pin",
+      "ban-hammer",
+      "survivor-vest",
+      "neon-visor",
+      "wing-pack",
+      "speed-boots"
+    ],
+    "equipped": [
+      "starter-shirt",
+      "cube-cap",
+      "ban-hammer",
+      "survivor-vest",
+      "neon-visor",
+      "wing-pack",
+      "speed-boots"
+    ],
+    "cubbux": 11145,
+    "transactions": [
+      {
+        "id": "82b29543-33e5-4242-89d5-ddd2f88f8db1",
+        "type": "cubbux_card_purchase",
+        "label": "Creator Pack paid with card ending 8854",
+        "amount": 11000,
+        "createdAt": "2026-05-26T01:41:57.081Z"
+      },
+      {
+        "id": "b1c66ed7-700c-4b1a-9242-9b2012f3fe10",
+        "type": "marketplace_purchase",
+        "label": "Speed Trial Boots",
+        "amount": -95,
+        "createdAt": "2026-05-26T01:34:18.473Z"
+      },
+      {
+        "id": "3aeddfda-f54a-49ce-b719-60000275acc0",
+        "type": "marketplace_purchase",
+        "label": "Sky Runner Wing Pack",
+        "amount": -180,
+        "createdAt": "2026-05-26T01:34:17.761Z"
+      },
+      {
+        "id": "46e6d1b9-be73-48fb-aa20-e58b22f19b15",
+        "type": "marketplace_purchase",
+        "label": "Neon Visor",
+        "amount": -120,
+        "createdAt": "2026-05-26T01:34:17.187Z"
+      },
+      {
+        "id": "d89cd6e0-8a73-4f78-bb12-184c0393cd1d",
+        "type": "marketplace_purchase",
+        "label": "Safe Zone Survivor Vest",
+        "amount": -85,
+        "createdAt": "2026-05-26T01:34:15.249Z"
+      },
+      {
+        "id": "cd27419c-c213-4c15-90ff-3daec07bc325",
+        "type": "cubbux_card_purchase",
+        "label": "Starter Pack paid with card ending 8854",
+        "amount": 500,
+        "createdAt": "2026-05-26T01:31:20.942Z"
+      }
+    ],
+    "role": "admin",
+    "gameSettings": {
+      "cameraSensitivity": 1,
+      "cameraInverted": true,
+      "smoothZoom": true,
+      "firstPersonZoom": true,
+      "cameraFollow": "free"
+    },
+    "settings": {
+      "notifications": {
+        "friendRequests": true,
+        "messages": true,
+        "gameUpdates": true,
+        "moderation": true
+      },
+      "privacy": {
+        "profileVisible": true,
+        "showOnline": true,
+        "allowFriendRequests": true,
+        "allowJoin": true,
+        "allowMessages": true
+      },
+      "browser": {
+        "reduceMotion": false,
+        "showPerformance": false,
+        "uiScale": 1
+      }
+    },
+    "groups": [
+      "cubixia-studios",
+      "survival-squad",
+      "tycoon-builders",
+      "avatar-creators"
+    ],
+    "bio": "Building my corner of CUBIXIA.",
+    "badges": [
+      "Founder"
+    ],
+    "achievements": [
+      "First Login"
+    ],
+    "friends": [
+      "Tanklyplayz"
+    ],
+    "incomingRequests": [],
+    "outgoingRequests": [],
+    "notifications": [
+      {
+        "id": "3cce9642-c56e-4d42-9da5-6bdcc759918d",
+        "type": "friend_accept",
+        "from": "Tanklyplayz",
+        "text": "Tanklyplayz accepted your friend request.",
+        "createdAt": "2026-05-26T02:04:56.137Z"
+      },
+      {
+        "id": "4a5d9450-5a1e-43a0-8eed-6fa9b48192a0",
+        "type": "report",
+        "reportId": "ec0a05cd-b83b-4ba7-b66c-c699a3463909",
+        "from": "John_Doe",
+        "target": "Cubixia: Survival",
+        "targetType": "Person",
+        "abuseType": "Cheating",
+        "details": "UI smoke test report reason",
+        "text": "Report from John_Doe: Cheating involving Person Cubixia: Survival. Reason: UI smoke test report reason",
+        "createdAt": "2026-05-26T01:59:37.731Z"
+      },
+      {
+        "id": "d7196086-436b-4905-b75f-be226955c6a9",
+        "type": "report",
+        "reportId": "14c93dd1-6179-4f78-819e-eacb5ccaaa0b",
+        "from": "John_Doe",
+        "target": "Cubixia Coaster Tycoon",
+        "targetType": "Experience",
+        "abuseType": "Bad language",
+        "details": "bad words :)(",
+        "text": "Report from John_Doe: Bad language involving Experience Cubixia Coaster Tycoon. Reason: bad words :)(",
+        "createdAt": "2026-05-26T01:58:09.032Z"
+      },
+      {
+        "id": "89d4ca28-69e5-414a-ba52-5348265c6828",
+        "type": "report",
+        "reportId": "85961fdb-9b47-4abd-be91-25afaa667b1b",
+        "from": "Report55685",
+        "target": "Recover71632",
+        "targetType": "Person",
+        "abuseType": "Cheating",
+        "details": "Testing moderation report reason path",
+        "text": "Report from Report55685: Cheating involving Person Recover71632. Reason: Testing moderation report reason path",
+        "createdAt": "2026-05-26T01:57:35.875Z"
+      },
+      {
+        "id": "75987e41-ca11-4c34-9560-fc64d5d9df8b",
+        "type": "group_join",
+        "from": "Avatar Creators",
+        "text": "You joined Avatar Creators.",
+        "createdAt": "2026-05-26T01:34:40.712Z"
+      },
+      {
+        "id": "adf37adc-3088-4adc-bda7-8f5dbf9b4e11",
+        "type": "group_join",
+        "from": "Tycoon Builders",
+        "text": "You joined Tycoon Builders.",
+        "createdAt": "2026-05-26T01:34:40.150Z"
+      },
+      {
+        "id": "56e54b85-2221-419b-a5c9-15f63e9ccc26",
+        "type": "group_join",
+        "from": "Survival Squad",
+        "text": "You joined Survival Squad.",
+        "createdAt": "2026-05-26T01:34:36.903Z"
+      },
+      {
+        "id": "973c36ba-0269-472a-a82d-4d2b871f7f64",
+        "type": "group_join",
+        "from": "Cubixia Studios",
+        "text": "You joined Cubixia Studios.",
+        "createdAt": "2026-05-26T01:34:30.816Z"
+      },
+      {
+        "id": "22450641-2e06-4504-b5ba-dc6febdb229f",
+        "type": "role_update",
+        "from": "Tanklyplayz",
+        "text": "Your CUBIXIA role is now ADMIN.",
+        "createdAt": "2026-05-26T01:33:21.853Z"
+      },
+      {
+        "id": "46b87b36-0369-4b08-bb21-06b79df6cca6",
+        "type": "role_update",
+        "from": "Tanklyplayz",
+        "text": "Your CUBIXIA role is now ADMIN.",
+        "createdAt": "2026-05-26T01:33:21.237Z"
+      },
+      {
+        "id": "31cbb1cd-c996-4d71-9804-5ce16efe7a12",
+        "type": "role_update",
+        "from": "Tanklyplayz",
+        "text": "Your CUBIXIA role is now ADMIN.",
+        "createdAt": "2026-05-26T01:33:19.597Z"
+      }
+    ],
+    "lastOnline": "2026-05-26T02:56:19.167Z",
+    "currentGame": "",
+    "banned": false,
+    "banReason": "",
+    "worldState": {
+      "gameId": "speed-trials",
+      "x": 3.962509908763989,
+      "y": 0.8,
+      "z": -7.154583508572339,
+      "rot": 0.31676093893222235,
+      "hp": 100,
+      "cash": 15,
+      "updatedAt": 1779760235660
+    },
+    "passwordResetCode": "",
+    "passwordResetExpires": 0,
+    "lastPlayed": {
+      "id": "speed-trials",
+      "title": "Speed Trials",
+      "progress": "Left server",
+      "xp": 0,
+      "currency": 15
+    },
+    "timeoutUntil": 0,
+    "timeoutReason": "",
+    "banUntil": 0,
+    "moderationNotice": null
+  },
+  {
+    "id": "82842593-7c40-4977-b107-22e5a8fc32af",
+    "username": "LoginFix76328",
+    "email": "loginfix76328@gmail.com",
+    "passwordHash": "$2a$10$vKj15hiG0W9O5SlPw2HCquCtKzU7CmX5Oo.mSIRlxPwHNb4rlG80G",
+    "birthMonth": "Jan",
+    "birthDay": "1",
+    "birthYear": "2000",
+    "avatar": "",
+    "createdAt": "2026-05-26T01:32:56.472Z",
+    "online": true,
+    "avatarStyle": {
+      "skin": "#f0d0a7",
+      "shirt": "#2268d8",
+      "pants": "#252b35",
+      "hair": "#7a4a1d",
+      "accessory": "none"
+    },
+    "inventory": [
+      "starter-shirt",
+      "cube-cap",
+      "tycoon-badge-pin"
+    ],
+    "equipped": [
+      "starter-shirt",
+      "cube-cap"
+    ],
+    "cubbux": 125,
+    "transactions": [],
+    "role": "user",
+    "gameSettings": {
+      "cameraSensitivity": 1,
+      "cameraInverted": true,
+      "smoothZoom": true,
+      "firstPersonZoom": true,
+      "cameraFollow": "free"
+    },
+    "settings": {
+      "notifications": {
+        "friendRequests": true,
+        "messages": true,
+        "gameUpdates": false,
+        "moderation": true
+      },
+      "privacy": {
+        "profileVisible": true,
+        "showOnline": true,
+        "allowFriendRequests": true,
+        "allowJoin": true,
+        "allowMessages": true
+      },
+      "browser": {
+        "reduceMotion": false,
+        "showPerformance": true,
+        "uiScale": 1
+      }
+    },
+    "groups": [],
+    "bio": "Building my corner of CUBIXIA.",
+    "badges": [
+      "Founder"
+    ],
+    "achievements": [
+      "First Login"
+    ],
+    "friends": [],
+    "incomingRequests": [],
+    "outgoingRequests": [],
+    "notifications": [],
+    "lastOnline": "2026-05-26T01:59:59.977Z",
+    "currentGame": "",
+    "banned": false,
+    "banReason": "",
+    "worldState": null,
+    "passwordResetCode": "",
+    "passwordResetExpires": 0,
+    "lastPlayed": {
+      "id": "cubixia-survival",
+      "title": "Cubixia: Survival",
+      "progress": "Safe-zone lobby",
+      "xp": 0,
+      "currency": 0
+    },
+    "timeoutUntil": 0,
+    "timeoutReason": "",
+    "banUntil": 0,
+    "moderationNotice": null
+  },
+  {
+    "id": "784a5410-893d-4bd8-a942-30112240f71c",
+    "username": "Recover71632",
+    "email": "recover71632@gmail.com",
+    "passwordHash": "$2a$10$xotKQQlsuNnUwtLoiNrSwOYjEYhWBu5yBKwcdbvRPhl/5rsJg3Xhe",
+    "birthMonth": "Jan",
+    "birthDay": "1",
+    "birthYear": "2000",
+    "avatar": "",
+    "createdAt": "2026-05-26T01:36:11.766Z",
+    "online": true,
+    "avatarStyle": {
+      "skin": "#f0d0a7",
+      "shirt": "#2268d8",
+      "pants": "#252b35",
+      "hair": "#7a4a1d",
+      "accessory": "none"
+    },
+    "inventory": [
+      "starter-shirt",
+      "cube-cap",
+      "tycoon-badge-pin"
+    ],
+    "equipped": [
+      "starter-shirt",
+      "cube-cap"
+    ],
+    "cubbux": 125,
+    "transactions": [],
+    "role": "user",
+    "gameSettings": {
+      "cameraSensitivity": 1,
+      "cameraInverted": true,
+      "smoothZoom": true,
+      "firstPersonZoom": true,
+      "cameraFollow": "free"
+    },
+    "settings": {
+      "notifications": {
+        "friendRequests": true,
+        "messages": true,
+        "gameUpdates": true,
+        "moderation": true
+      },
+      "privacy": {
+        "profileVisible": true,
+        "showOnline": true,
+        "allowFriendRequests": true,
+        "allowJoin": true,
+        "allowMessages": true
+      },
+      "browser": {
+        "reduceMotion": false,
+        "showPerformance": false,
+        "uiScale": 1
+      }
+    },
+    "groups": [],
+    "bio": "Building my corner of CUBIXIA.",
+    "badges": [
+      "Founder"
+    ],
+    "achievements": [
+      "First Login"
+    ],
+    "friends": [],
+    "incomingRequests": [],
+    "outgoingRequests": [],
+    "notifications": [],
+    "lastOnline": "2026-05-26T01:36:11.970Z",
+    "currentGame": "",
+    "banned": false,
+    "banReason": "",
+    "worldState": null,
+    "passwordResetCode": "",
+    "passwordResetExpires": 0,
+    "lastPlayed": {
+      "id": "cubixia-survival",
+      "title": "Cubixia: Survival",
+      "progress": "Safe-zone lobby",
+      "xp": 0,
+      "currency": 0
+    },
+    "timeoutUntil": 0,
+    "timeoutReason": "",
+    "banUntil": 0,
+    "moderationNotice": null
+  },
+  {
+    "id": "c4c02fae-480f-4f1c-93d3-3d334ec13ec6",
+    "username": "John_Doe",
+    "email": "wowomglol@gmail.com",
+    "passwordHash": "$2a$10$onyuJVWV9EgGMJnGxlvBuuR0V0uhbOQRskEJm85YNxAnCX.i8sqa2",
+    "birthMonth": "Jul",
+    "birthDay": "14",
+    "birthYear": "2000",
+    "avatar": "",
+    "createdAt": "2026-05-26T01:52:05.476Z",
+    "online": true,
+    "avatarStyle": {
+      "skin": "#f0d0a7",
+      "shirt": "#2268d8",
+      "pants": "#252b35",
+      "hair": "#7a4a1d",
+      "accessory": "none"
+    },
+    "inventory": [
+      "starter-shirt",
+      "cube-cap",
+      "tycoon-badge-pin",
+      "ban-hammer"
+    ],
+    "equipped": [
+      "starter-shirt",
+      "cube-cap"
+    ],
+    "cubbux": 0,
+    "transactions": [
+      {
+        "id": "13a7dab1-503a-4084-a9a7-b33686923d59",
+        "type": "owner_take",
+        "label": "Owner removal by Tanklyplayz",
+        "amount": -100,
+        "createdAt": "2026-05-26T02:30:22.841Z"
+      },
+      {
+        "id": "a3345e35-e97d-4f5e-ac59-1a077714a9dc",
+        "type": "owner_take",
+        "label": "Owner removal by Tanklyplayz",
+        "amount": -100,
+        "createdAt": "2026-05-26T02:30:22.625Z"
+      },
+      {
+        "id": "91255270-4dae-400c-8e21-3d843703b7a5",
+        "type": "owner_take",
+        "label": "Owner removal by Tanklyplayz",
+        "amount": -100,
+        "createdAt": "2026-05-26T02:30:22.401Z"
+      },
+      {
+        "id": "52b036e9-fee4-4300-bdbf-62d81c7046aa",
+        "type": "owner_take",
+        "label": "Owner removal by Tanklyplayz",
+        "amount": -100,
+        "createdAt": "2026-05-26T02:30:18.305Z"
+      },
+      {
+        "id": "b29eef4a-9b88-4d00-b096-44d6f831eb73",
+        "type": "owner_take",
+        "label": "Owner removal by Tanklyplayz",
+        "amount": -100,
+        "createdAt": "2026-05-26T02:30:18.137Z"
+      },
+      {
+        "id": "791794f5-464d-45d5-b19e-ea7d15623158",
+        "type": "owner_take",
+        "label": "Owner removal by Tanklyplayz",
+        "amount": -100,
+        "createdAt": "2026-05-26T02:30:17.723Z"
+      },
+      {
+        "id": "ff53ea38-409a-419e-9221-136df6b960e9",
+        "type": "owner_grant",
+        "label": "Owner grant from Tanklyplayz",
+        "amount": 100,
+        "createdAt": "2026-05-26T02:30:09.699Z"
+      }
+    ],
+    "role": "user",
+    "gameSettings": {
+      "cameraSensitivity": 1,
+      "cameraInverted": true,
+      "smoothZoom": true,
+      "firstPersonZoom": true,
+      "cameraFollow": "free"
+    },
+    "settings": {
+      "notifications": {
+        "friendRequests": true,
+        "messages": true,
+        "gameUpdates": true,
+        "moderation": true
+      },
+      "privacy": {
+        "profileVisible": true,
+        "showOnline": true,
+        "allowFriendRequests": true,
+        "allowJoin": true,
+        "allowMessages": true
+      },
+      "browser": {
+        "reduceMotion": false,
+        "showPerformance": false,
+        "uiScale": 1
+      }
+    },
+    "groups": [
+      "cubixia-studios"
+    ],
+    "bio": "Building my corner of CUBIXIA.",
+    "badges": [
+      "Founder"
+    ],
+    "achievements": [
+      "First Login"
+    ],
+    "friends": [
+      "Tanklyplayz"
+    ],
+    "incomingRequests": [],
+    "outgoingRequests": [],
+    "notifications": [
+      {
+        "id": "ff93edff-ae43-4ac4-b0e3-ccee92b1e047",
+        "type": "role_update",
+        "from": "Tanklyplayz",
+        "text": "Your CUBIXIA role is now USER.",
+        "createdAt": "2026-05-26T03:35:01.490Z"
+      },
+      {
+        "id": "f3f1b9eb-edf5-453a-8dc0-43132c918ec2",
+        "type": "role_update",
+        "from": "Tanklyplayz",
+        "text": "Your CUBIXIA role is now USER.",
+        "createdAt": "2026-05-26T03:35:00.843Z"
+      },
+      {
+        "id": "f1092355-696a-4ec5-95d8-237edf999e0c",
+        "type": "role_update",
+        "from": "Tanklyplayz",
+        "text": "Your CUBIXIA role is now ADMIN.",
+        "createdAt": "2026-05-26T03:34:55.890Z"
+      },
+      {
+        "id": "6bf749d5-1d83-4391-bb92-293b30547a46",
+        "type": "role_update",
+        "from": "Tanklyplayz",
+        "text": "Your CUBIXIA role is now USER.",
+        "createdAt": "2026-05-26T03:34:49.707Z"
+      },
+      {
+        "id": "b783b102-77e1-4720-b38a-dbbab5da2057",
+        "type": "role_update",
+        "from": "Tanklyplayz",
+        "text": "Your CUBIXIA role is now ADMIN.",
+        "createdAt": "2026-05-26T03:34:19.214Z"
+      },
+      {
+        "id": "72257664-bc8b-42a2-bb0b-11b8ec4a7dad",
+        "type": "role_update",
+        "from": "Tanklyplayz",
+        "text": "Your CUBIXIA role is now MOD.",
+        "createdAt": "2026-05-26T03:34:04.000Z"
+      },
+      {
+        "id": "bb4f38a5-8393-42f9-9db4-1e1da907d21e",
+        "type": "warning",
+        "from": "Tanklyplayz",
+        "text": "WARNING: Please be resectful.",
+        "createdAt": "2026-05-26T03:26:30.162Z"
+      },
+      {
+        "id": "437d705c-f0a7-4739-a909-8b5eb65b329e",
+        "type": "moderation_action",
+        "from": "Tanklyplayz",
+        "text": "BAN: Innapropriate Language, Please respect everyone on the platform.",
+        "createdAt": "2026-05-26T03:26:07.144Z"
+      },
+      {
+        "id": "6bc2bb94-5657-46d5-8aeb-4c337ea592b6",
+        "type": "moderation_action",
+        "from": "Tanklyplayz",
+        "text": "BAN: Innapropriate Language, Please respect everyone on the platform.",
+        "createdAt": "2026-05-26T03:25:31.987Z"
+      },
+      {
+        "id": "28f66b30-0f6e-4323-803b-e19492cd4d97",
+        "type": "report_sent",
+        "from": "CUBIXIA",
+        "text": "Your report was sent to CUBIXIA moderators, admins, and the owner.",
+        "createdAt": "2026-05-26T03:24:05.512Z"
+      },
+      {
+        "id": "19e606ed-300d-4dfc-a609-1357a1db1515",
+        "type": "report_sent",
+        "from": "CUBIXIA",
+        "text": "Your report was sent to CUBIXIA moderators, admins, and the owner.",
+        "createdAt": "2026-05-26T02:59:04.131Z"
+      },
+      {
+        "id": "2d3137da-794b-4bcd-b4d6-49aa8579c10f",
+        "type": "group_join",
+        "from": "Cubixia Studios",
+        "text": "You joined Cubixia Studios.",
+        "createdAt": "2026-05-26T02:30:34.161Z"
+      },
+      {
+        "id": "cc863a03-7a06-4cc8-804f-7846439e8bde",
+        "type": "report_sent",
+        "from": "CUBIXIA",
+        "text": "Your report was sent to CUBIXIA moderators, admins, and the owner.",
+        "createdAt": "2026-05-26T02:25:04.298Z"
+      },
+      {
+        "id": "9b657679-2f09-468e-9c65-d3f58e0e991b",
+        "type": "report_sent",
+        "from": "CUBIXIA",
+        "text": "Your report was sent to CUBIXIA moderators, admins, and the owner.",
+        "createdAt": "2026-05-26T01:59:37.731Z"
+      },
+      {
+        "id": "a73727d4-e1b6-4dc5-92e0-934e3803a5fa",
+        "type": "report_sent",
+        "from": "CUBIXIA",
+        "text": "Your report was sent to CUBIXIA moderators, admins, and the owner.",
+        "createdAt": "2026-05-26T01:58:09.032Z"
+      }
+    ],
+    "lastOnline": "2026-05-26T03:40:35.147Z",
+    "currentGame": "",
+    "banned": false,
+    "banReason": "",
+    "worldState": null,
+    "passwordResetCode": "",
+    "passwordResetExpires": 0,
+    "lastPlayed": {
+      "id": "speed-trials",
+      "title": "Speed Trials",
+      "progress": "Left server",
+      "xp": 0,
+      "currency": 5442
+    },
+    "timeoutUntil": 0,
+    "timeoutReason": "",
+    "banUntil": 0,
+    "moderationNotice": {
+      "id": "c9c9ce96-0595-48cd-8934-f5bc6320cd90",
+      "action": "warning",
+      "reason": "Please be resectful.",
+      "moderator": "Tanklyplayz",
+      "until": 1779766050161,
+      "createdAt": "2026-05-26T03:26:30.162Z",
+      "acknowledged": true
+    }
+  },
+  {
+    "id": "b26992d0-3814-4362-8ffc-48889c451dff",
+    "username": "Report55685",
+    "email": "report55685@gmail.com",
+    "passwordHash": "$2a$10$r2DXcRY2JKIsH0Wc.v.cIeoTdvvTuSWNv3zmWWQe5KrfRxLOLY56q",
+    "birthMonth": "Jan",
+    "birthDay": "1",
+    "birthYear": "2000",
+    "avatar": "",
+    "createdAt": "2026-05-26T01:57:35.834Z",
+    "online": true,
+    "avatarStyle": {
+      "skin": "#f0d0a7",
+      "shirt": "#2268d8",
+      "pants": "#252b35",
+      "hair": "#7a4a1d",
+      "accessory": "none"
+    },
+    "inventory": [
+      "starter-shirt",
+      "cube-cap",
+      "tycoon-badge-pin"
+    ],
+    "equipped": [
+      "starter-shirt",
+      "cube-cap"
+    ],
+    "cubbux": 125,
+    "transactions": [],
+    "role": "user",
+    "gameSettings": {
+      "cameraSensitivity": 1,
+      "cameraInverted": true,
+      "smoothZoom": true,
+      "firstPersonZoom": true,
+      "cameraFollow": "free"
+    },
+    "settings": {
+      "notifications": {
+        "friendRequests": true,
+        "messages": true,
+        "gameUpdates": true,
+        "moderation": true
+      },
+      "privacy": {
+        "profileVisible": true,
+        "showOnline": true,
+        "allowFriendRequests": true,
+        "allowJoin": true,
+        "allowMessages": true
+      },
+      "browser": {
+        "reduceMotion": false,
+        "showPerformance": false,
+        "uiScale": 1
+      }
+    },
+    "groups": [],
+    "bio": "Building my corner of CUBIXIA.",
+    "badges": [
+      "Founder"
+    ],
+    "achievements": [
+      "First Login"
+    ],
+    "friends": [],
+    "incomingRequests": [],
+    "outgoingRequests": [],
+    "notifications": [
+      {
+        "id": "ed7a43e7-87f9-474d-bb71-8b81aa8219a4",
+        "type": "report_sent",
+        "from": "CUBIXIA",
+        "text": "Your report was sent to CUBIXIA moderators, admins, and the owner.",
+        "createdAt": "2026-05-26T01:57:35.875Z"
+      }
+    ],
+    "lastOnline": "2026-05-26T01:57:35.834Z",
+    "currentGame": "",
+    "banned": false,
+    "banReason": "",
+    "timeoutUntil": 0,
+    "timeoutReason": "",
+    "worldState": null,
+    "passwordResetCode": "",
+    "passwordResetExpires": 0,
+    "lastPlayed": {
+      "id": "cubixia-survival",
+      "title": "Cubixia: Survival",
+      "progress": "Safe-zone lobby",
+      "xp": 0,
+      "currency": 0
+    },
+    "banUntil": 0,
+    "moderationNotice": null
+  },
+  {
+    "id": "55e4aaf4-a015-4a57-9745-468f211c7082",
+    "username": "Admin45480",
+    "email": "admin45480@gmail.com",
+    "passwordHash": "$2a$10$jqO1VmsE/YNN0A3xLYIPBun9.YWRM9lMXP/6qepGzdbAvTq.GOik.",
+    "birthMonth": "Jan",
+    "birthDay": "1",
+    "birthYear": "2000",
+    "avatar": "",
+    "createdAt": "2026-05-26T02:20:45.665Z",
+    "online": true,
+    "avatarStyle": {
+      "skin": "#f0d0a7",
+      "shirt": "#2268d8",
+      "pants": "#252b35",
+      "hair": "#7a4a1d",
+      "accessory": "none"
+    },
+    "inventory": [
+      "starter-shirt",
+      "cube-cap",
+      "tycoon-badge-pin",
+      "ban-hammer"
+    ],
+    "equipped": [
+      "starter-shirt",
+      "cube-cap"
+    ],
+    "cubbux": 125,
+    "transactions": [],
+    "role": "admin",
+    "gameSettings": {
+      "cameraSensitivity": 1,
+      "cameraInverted": true,
+      "smoothZoom": true,
+      "firstPersonZoom": true,
+      "cameraFollow": "free"
+    },
+    "settings": {
+      "notifications": {
+        "friendRequests": true,
+        "messages": true,
+        "gameUpdates": true,
+        "moderation": true
+      },
+      "privacy": {
+        "profileVisible": true,
+        "showOnline": true,
+        "allowFriendRequests": true,
+        "allowJoin": true,
+        "allowMessages": true
+      },
+      "browser": {
+        "reduceMotion": false,
+        "showPerformance": false,
+        "uiScale": 1
+      }
+    },
+    "groups": [],
+    "bio": "Building my corner of CUBIXIA.",
+    "badges": [
+      "Founder"
+    ],
+    "achievements": [
+      "First Login"
+    ],
+    "friends": [],
+    "incomingRequests": [],
+    "outgoingRequests": [],
+    "notifications": [
+      {
+        "id": "60adc522-6be1-4c74-8b77-38a8d64b6d4a",
+        "type": "moderation_action",
+        "from": "CUBIXIA",
+        "text": "Admin45480 used BAN on Target45480. Reason: test ban timer",
+        "createdAt": "2026-05-26T02:21:57.886Z"
+      },
+      {
+        "id": "0938e22b-3983-4f4e-8698-358bcf43664d",
+        "type": "moderation_action",
+        "from": "CUBIXIA",
+        "text": "Admin45480 used KICK on Target45480. Reason: test kick from game",
+        "createdAt": "2026-05-26T02:21:27.770Z"
+      },
+      {
+        "id": "c1c0c2a3-4a84-4f45-9a83-7f5f2d41ea4e",
+        "type": "moderation_action",
+        "from": "CUBIXIA",
+        "text": "Admin45480 used WARN on Target45480. Reason: test warning screen",
+        "createdAt": "2026-05-26T02:21:25.733Z"
+      }
+    ],
+    "lastOnline": "2026-05-26T02:21:57.740Z",
+    "currentGame": "",
+    "banned": false,
+    "banReason": "",
+    "banUntil": 0,
+    "timeoutUntil": 0,
+    "timeoutReason": "",
+    "moderationNotice": null,
+    "worldState": null,
+    "passwordResetCode": "",
+    "passwordResetExpires": 0,
+    "lastPlayed": {
+      "id": "cubixia-survival",
+      "title": "Cubixia: Survival",
+      "progress": "Safe-zone lobby",
+      "xp": 0,
+      "currency": 0
+    }
+  },
+  {
+    "id": "d2361f51-5936-4631-a759-c76ebba58fca",
+    "username": "Target45480",
+    "email": "target45480@gmail.com",
+    "passwordHash": "$2a$10$A.mXBvr3LfToNmqq8BW.N.Njl9/S7SehMABszjtnsnJs/TPCQPVhe",
+    "birthMonth": "Jan",
+    "birthDay": "1",
+    "birthYear": "2000",
+    "avatar": "",
+    "createdAt": "2026-05-26T02:20:45.783Z",
+    "online": true,
+    "avatarStyle": {
+      "skin": "#f0d0a7",
+      "shirt": "#2268d8",
+      "pants": "#252b35",
+      "hair": "#7a4a1d",
+      "accessory": "none"
+    },
+    "inventory": [
+      "starter-shirt",
+      "cube-cap",
+      "tycoon-badge-pin"
+    ],
+    "equipped": [
+      "starter-shirt",
+      "cube-cap"
+    ],
+    "cubbux": 125,
+    "transactions": [],
+    "role": "user",
+    "gameSettings": {
+      "cameraSensitivity": 1,
+      "cameraInverted": true,
+      "smoothZoom": true,
+      "firstPersonZoom": true,
+      "cameraFollow": "free"
+    },
+    "settings": {
+      "notifications": {
+        "friendRequests": true,
+        "messages": true,
+        "gameUpdates": true,
+        "moderation": true
+      },
+      "privacy": {
+        "profileVisible": true,
+        "showOnline": true,
+        "allowFriendRequests": true,
+        "allowJoin": true,
+        "allowMessages": true
+      },
+      "browser": {
+        "reduceMotion": false,
+        "showPerformance": false,
+        "uiScale": 1
+      }
+    },
+    "groups": [],
+    "bio": "Building my corner of CUBIXIA.",
+    "badges": [
+      "Founder"
+    ],
+    "achievements": [
+      "First Login"
+    ],
+    "friends": [],
+    "incomingRequests": [],
+    "outgoingRequests": [],
+    "notifications": [
+      {
+        "id": "eb984873-47f0-4bbb-a21a-5b320393ea43",
+        "type": "moderation_action",
+        "from": "Admin45480",
+        "text": "BAN: test ban timer",
+        "createdAt": "2026-05-26T02:21:57.886Z"
+      },
+      {
+        "id": "8cee44f6-58b2-4b7f-8c3f-f212a26e8e71",
+        "type": "moderation_action",
+        "from": "Admin45480",
+        "text": "KICK: test kick from game",
+        "createdAt": "2026-05-26T02:21:27.770Z"
+      },
+      {
+        "id": "7e61cc71-2c37-4f50-ad67-a2a4d30c15ff",
+        "type": "warning",
+        "from": "Admin45480",
+        "text": "WARNING: test warning screen",
+        "createdAt": "2026-05-26T02:21:25.733Z"
+      },
+      {
+        "id": "2663fe3c-620f-42f6-b76c-e9a49b00cebf",
+        "type": "report_sent",
+        "from": "CUBIXIA",
+        "text": "Your report was sent to CUBIXIA moderators, admins, and the owner.",
+        "createdAt": "2026-05-26T02:21:25.719Z"
+      }
+    ],
+    "lastOnline": "2026-05-26T02:21:59.979Z",
+    "currentGame": "",
+    "banned": false,
+    "banReason": "",
+    "banUntil": 0,
+    "timeoutUntil": 0,
+    "timeoutReason": "",
+    "moderationNotice": {
+      "id": "d2f26f84-34b8-439c-b8a5-d5fbe48dd78c",
+      "action": "ban",
+      "reason": "test ban timer",
+      "moderator": "Admin45480",
+      "until": 1779762118886,
+      "createdAt": "2026-05-26T02:21:57.886Z",
+      "acknowledged": true
+    },
+    "worldState": null,
+    "passwordResetCode": "",
+    "passwordResetExpires": 0,
+    "lastPlayed": {
+      "id": "cubixia-survival",
+      "title": "Cubixia: Survival",
+      "progress": "Safe-zone lobby",
+      "xp": 0,
+      "currency": 0
+    }
+  }
+]
