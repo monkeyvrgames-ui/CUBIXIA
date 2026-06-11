@@ -1237,13 +1237,40 @@ async function createBootstrapOwner(users, username, password) {
   return user;
 }
 
+function gmailUserEnv() {
+  return String(process.env.GMAIL_USER || process.env.CUBIXIA_GMAIL_USER || process.env.SMTP_USER || "").trim();
+}
+
+function gmailPasswordEnv() {
+  return String(
+    process.env.GMAIL_APP_PASSWORD ||
+    process.env.CUBIXIA_GMAIL_APP_PASSWORD ||
+    process.env.GMAIL_PASSWORD ||
+    process.env.SMTP_PASS ||
+    ""
+  ).replace(/\s+/g, "");
+}
+
+function gmailStatus() {
+  const user = gmailUserEnv();
+  const password = gmailPasswordEnv();
+  return {
+    ready: Boolean(user && password),
+    userSet: Boolean(user),
+    passwordSet: Boolean(password),
+    sender: user ? maskEmailAddress(user) : ""
+  };
+}
+
 function createGmailTransporter() {
-  if (!process.env.GMAIL_USER || !process.env.GMAIL_APP_PASSWORD) return null;
+  const user = gmailUserEnv();
+  const password = gmailPasswordEnv();
+  if (!user || !password) return null;
   return nodemailer.createTransport({
     service: "gmail",
     auth: {
-      user: process.env.GMAIL_USER,
-      pass: String(process.env.GMAIL_APP_PASSWORD).replace(/\s+/g, "")
+      user,
+      pass: password
     }
   });
 }
@@ -1252,7 +1279,7 @@ async function sendRecoveryEmail(user, code) {
   const transporter = createGmailTransporter();
   if (!transporter) return false;
   await transporter.sendMail({
-    from: `"CUBIXIA Recovery" <${process.env.GMAIL_USER}>`,
+    from: `"CUBIXIA Recovery" <${gmailUserEnv()}>`,
     to: user.email,
     subject: "Your CUBIXIA recovery code",
     text: `Your CUBIXIA password recovery code is ${code}. It expires in 15 minutes.`
@@ -1358,7 +1385,7 @@ async function sendTwoStepEmail(user, code) {
   const transporter = createGmailTransporter();
   if (!transporter) return false;
   await transporter.sendMail({
-    from: `"CUBIXIA Security" <${process.env.GMAIL_USER}>`,
+    from: `"CUBIXIA Security" <${gmailUserEnv()}>`,
     to: user.email,
     subject: "Your CUBIXIA 2-step verification code",
     text: `Your CUBIXIA login security code is ${code}. It expires in 10 minutes. If you did not try to log in, change your password immediately.`
@@ -1427,7 +1454,7 @@ async function prepareTwoStepChallenge(req, users, user, options = {}) {
       emailSent,
       message: emailSent
         ? `A 2-step verification code was sent to ${maskEmailAddress(user.email)}.`
-        : "CUBIXIA could not send the 2-step email. Add GMAIL_USER and GMAIL_APP_PASSWORD to the server environment, then restart the server."
+        : `CUBIXIA could not send the 2-step email. Render Gmail status: GMAIL_USER ${gmailStatus().userSet ? "loaded" : "missing"}, GMAIL_APP_PASSWORD ${gmailStatus().passwordSet ? "loaded" : "missing"}. Save the missing variable in Render, then redeploy.`
     };
   })();
   if (!options.forceNew) twoStepChallengeLocks.set(user.id, challengePromise);
@@ -2002,12 +2029,16 @@ app.get("/api/network-info", (req, res) => {
 });
 
 app.get("/health", (_req, res) => {
+  const gmail = gmailStatus();
   res.json({
     ok: true,
     app: "CUBIXIA",
-    version: process.env.CUBIXIA_DESKTOP_VERSION || "1.0.18",
+    version: process.env.CUBIXIA_DESKTOP_VERSION || "1.0.19",
     mode: process.env.CUBIXIA_DESKTOP ? "desktop-local-server" : "shared-server",
-    gmailReady: Boolean(process.env.GMAIL_USER && process.env.GMAIL_APP_PASSWORD),
+    gmailReady: gmail.ready,
+    gmailUserSet: gmail.userSet,
+    gmailPasswordSet: gmail.passwordSet,
+    gmailSender: gmail.sender,
     time: new Date().toISOString()
   });
 });

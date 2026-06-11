@@ -1,0 +1,48 @@
+CUBIXIA Render Gmail Fix
+
+Your live Render server must show:
+
+  "gmailReady": true
+  "gmailUserSet": true
+  "gmailPasswordSet": true
+  "gmailSender": "g******@gmail.com"
+
+Check:
+
+  https://cubixia.onrender.com/health
+
+If gmailReady is false, open Render:
+
+  CUBIXIA web service
+  Environment
+
+Add or fix these exact variables:
+
+  GMAIL_USER = gglitch145@gmail.com
+  GMAIL_APP_PASSWORD = your 16-character Google App Password
+
+Then:
+
+  Save Changes
+  Manual Deploy
+  Clear build cache & deploy
+
+Important:
+
+  Do not put these in GitHub.
+  Do not put them in .env.example.
+  Do not use your normal Gmail password.
+  Use the 16-character Google App Password.
+
+If you named the variables slightly differently, CUBIXIA 1.0.19 also accepts:
+
+  CUBIXIA_GMAIL_USER
+  CUBIXIA_GMAIL_APP_PASSWORD
+  SMTP_USER
+  SMTP_PASS
+  GMAIL_PASSWORD
+
+But the recommended names are:
+
+  GMAIL_USER
+  GMAIL_APP_PASSWORD
