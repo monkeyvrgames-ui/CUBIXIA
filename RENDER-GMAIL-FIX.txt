@@ -5,7 +5,7 @@ Your live Render server must show:
   "gmailReady": true
   "gmailUserSet": true
   "gmailPasswordSet": true
-  "gmailSender": "g******@gmail.com"
+  "gmailSender": "gglitch145@gmail.com"
 
 Check:
 
