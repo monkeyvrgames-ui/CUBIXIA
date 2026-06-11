@@ -1,0 +1,35 @@
+CUBIXIA Gmail 2-step setup
+
+In Render, open your CUBIXIA web service:
+
+  Environment
+  Add Environment Variable
+
+Set:
+
+  GMAIL_USER = gglitch145@gmail.com
+  GMAIL_APP_PASSWORD = your Gmail app password
+
+Important:
+  GMAIL_APP_PASSWORD is not your normal Gmail password.
+  It is the 16-character Google App Password.
+  If it has spaces, Render can store it with spaces or without spaces.
+  CUBIXIA removes spaces before using it.
+
+After saving:
+
+  Manual Deploy
+  Clear build cache & deploy
+
+Then open:
+
+  https://cubixia.onrender.com/health
+
+It should show:
+
+  "version": "1.0.18"
+  "gmailReady": true
+
+If gmailReady is false, Render does not have both Gmail variables yet.
+
+If you were already stuck on a 2-step screen, press Resend Code after the deploy.

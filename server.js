@@ -1372,7 +1372,8 @@ async function prepareTwoStepChallenge(req, users, user, options = {}) {
   const canReuse = !options.forceNew
     && existing.codeHash
     && Number(existing.codeExpires || 0) > now
-    && Number(existing.lastSentAt || 0) > now - 10 * 60 * 1000;
+    && Number(existing.lastSentAt || 0) > now - 10 * 60 * 1000
+    && existing.lastEmailSent === true;
   if (canReuse) {
     req.session.pendingTwoStepUserId = user.id;
     req.session.pendingTwoStepCreatedAt = Number(existing.requestedAt || now);
@@ -1395,7 +1396,9 @@ async function prepareTwoStepChallenge(req, users, user, options = {}) {
     return {
       ...publicChallenge,
       reused: true,
-      message: `A 2-step verification code was already sent to ${maskEmailAddress(user.email)}. Use that same code.`
+      message: publicChallenge.emailSent
+        ? `A 2-step verification code was already sent to ${maskEmailAddress(user.email)}. Use that same code.`
+        : "CUBIXIA could not send the 2-step email yet. Check the Gmail environment variables on Render, then press Resend Code."
     };
   }
   const challengePromise = (async () => {
@@ -1408,10 +1411,14 @@ async function prepareTwoStepChallenge(req, users, user, options = {}) {
       codeExpires: requestedAt + 10 * 60 * 1000,
       attempts: 0,
       requestedAt,
-      lastSentAt: requestedAt
+      lastSentAt: requestedAt,
+      lastEmailSent: false
     };
     await writeUsers(users);
     const emailSent = await sendTwoStepEmail(user, code).catch(() => false);
+    user.twoStep.lastEmailSent = Boolean(emailSent);
+    user.twoStep.lastEmailErrorAt = emailSent ? 0 : Date.now();
+    await writeUsers(users);
     return {
       requestedAt,
       twoStepRequired: true,
@@ -1998,8 +2005,9 @@ app.get("/health", (_req, res) => {
   res.json({
     ok: true,
     app: "CUBIXIA",
-    version: process.env.CUBIXIA_DESKTOP_VERSION || "1.0.17",
+    version: process.env.CUBIXIA_DESKTOP_VERSION || "1.0.18",
     mode: process.env.CUBIXIA_DESKTOP ? "desktop-local-server" : "shared-server",
+    gmailReady: Boolean(process.env.GMAIL_USER && process.env.GMAIL_APP_PASSWORD),
     time: new Date().toISOString()
   });
 });
