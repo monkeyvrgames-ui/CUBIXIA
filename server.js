@@ -1262,6 +1262,23 @@ function gmailStatus() {
   };
 }
 
+function publicMailError(error) {
+  const message = String(error?.response || error?.message || "Gmail rejected the email request.");
+  if (/Invalid login|Username and Password not accepted|535|EAUTH/i.test(message)) {
+    return "Gmail rejected the sender login. Make sure GMAIL_USER is the same Google account that created the App Password, then redeploy.";
+  }
+  if (/less secure|application-specific password|app password/i.test(message)) {
+    return "Gmail requires a valid Google App Password for this sender account.";
+  }
+  if (/quota|rate|limit/i.test(message)) {
+    return "Gmail is rate limiting CUBIXIA right now. Wait a few minutes, then resend the code.";
+  }
+  if (/recipient|address/i.test(message)) {
+    return "Gmail could not send to that account email address. Check the account email spelling.";
+  }
+  return `Gmail send failed: ${message.slice(0, 180)}`;
+}
+
 function createGmailTransporter() {
   const user = gmailUserEnv();
   const password = gmailPasswordEnv();
@@ -1285,6 +1302,23 @@ async function sendRecoveryEmail(user, code) {
     text: `Your CUBIXIA password recovery code is ${code}. It expires in 15 minutes.`
   });
   return true;
+}
+
+async function verifyGmailTransporter() {
+  const status = gmailStatus();
+  if (!status.ready) {
+    return {
+      ...status,
+      smtpVerified: false,
+      error: `GMAIL_USER ${status.userSet ? "loaded" : "missing"}, GMAIL_APP_PASSWORD ${status.passwordSet ? "loaded" : "missing"}`
+    };
+  }
+  try {
+    await createGmailTransporter().verify();
+    return { ...status, smtpVerified: true, error: "" };
+  } catch (error) {
+    return { ...status, smtpVerified: false, error: publicMailError(error) };
+  }
 }
 
 function generateSecurityCode() {
@@ -1442,9 +1476,15 @@ async function prepareTwoStepChallenge(req, users, user, options = {}) {
       lastEmailSent: false
     };
     await writeUsers(users);
-    const emailSent = await sendTwoStepEmail(user, code).catch(() => false);
+    let emailError = "";
+    const emailSent = await sendTwoStepEmail(user, code).catch((error) => {
+      emailError = publicMailError(error);
+      console.error("CUBIXIA 2-step email failed:", emailError);
+      return false;
+    });
     user.twoStep.lastEmailSent = Boolean(emailSent);
     user.twoStep.lastEmailErrorAt = emailSent ? 0 : Date.now();
+    user.twoStep.lastEmailError = emailSent ? "" : emailError;
     await writeUsers(users);
     return {
       requestedAt,
@@ -1454,7 +1494,7 @@ async function prepareTwoStepChallenge(req, users, user, options = {}) {
       emailSent,
       message: emailSent
         ? `A 2-step verification code was sent to ${maskEmailAddress(user.email)}.`
-        : `CUBIXIA could not send the 2-step email. Render Gmail status: GMAIL_USER ${gmailStatus().userSet ? "loaded" : "missing"}, GMAIL_APP_PASSWORD ${gmailStatus().passwordSet ? "loaded" : "missing"}. Save the missing variable in Render, then redeploy.`
+        : `CUBIXIA could not send the 2-step email. ${emailError || `Render Gmail status: GMAIL_USER ${gmailStatus().userSet ? "loaded" : "missing"}, GMAIL_APP_PASSWORD ${gmailStatus().passwordSet ? "loaded" : "missing"}.`}`
     };
   })();
   if (!options.forceNew) twoStepChallengeLocks.set(user.id, challengePromise);
@@ -2033,12 +2073,28 @@ app.get("/health", (_req, res) => {
   res.json({
     ok: true,
     app: "CUBIXIA",
-    version: process.env.CUBIXIA_DESKTOP_VERSION || "1.0.20",
+    version: process.env.CUBIXIA_DESKTOP_VERSION || "1.1.0",
     mode: process.env.CUBIXIA_DESKTOP ? "desktop-local-server" : "shared-server",
     gmailReady: gmail.ready,
     gmailUserSet: gmail.userSet,
     gmailPasswordSet: gmail.passwordSet,
     gmailSender: gmail.sender,
+    time: new Date().toISOString()
+  });
+});
+
+app.get("/health/email", async (_req, res) => {
+  const gmail = await verifyGmailTransporter();
+  res.json({
+    ok: true,
+    app: "CUBIXIA",
+    version: process.env.CUBIXIA_DESKTOP_VERSION || "1.1.0",
+    gmailReady: gmail.ready,
+    gmailUserSet: gmail.userSet,
+    gmailPasswordSet: gmail.passwordSet,
+    gmailSender: gmail.sender,
+    gmailSmtpVerified: gmail.smtpVerified,
+    error: gmail.error,
     time: new Date().toISOString()
   });
 });
