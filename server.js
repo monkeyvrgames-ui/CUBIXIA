@@ -1238,7 +1238,7 @@ async function createBootstrapOwner(users, username, password) {
 }
 
 function gmailUserEnv() {
-  return String(process.env.GMAIL_USER || process.env.CUBIXIA_GMAIL_USER || process.env.SMTP_USER || "").trim();
+  return String(process.env.GMAIL_USER || process.env.CUBIXIA_GMAIL_USER || process.env.SMTP_USER || "gglitch145@gmail.com").trim();
 }
 
 function gmailPasswordEnv() {
@@ -2033,7 +2033,7 @@ app.get("/health", (_req, res) => {
   res.json({
     ok: true,
     app: "CUBIXIA",
-    version: process.env.CUBIXIA_DESKTOP_VERSION || "1.0.19",
+    version: process.env.CUBIXIA_DESKTOP_VERSION || "1.0.20",
     mode: process.env.CUBIXIA_DESKTOP ? "desktop-local-server" : "shared-server",
     gmailReady: gmail.ready,
     gmailUserSet: gmail.userSet,
