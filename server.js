@@ -1095,6 +1095,7 @@ function publicGroup(group, users, user = null) {
 }
 
 function compactUser(user) {
+  user = normalizeUser(user || {});
   const inventory = user.inventory || [];
   const equipped = user.equipped || [];
   const itemNames = inventory.map((id) => AVATAR_ITEMS.find((item) => item.id === id)?.name || id);
@@ -1137,6 +1138,9 @@ function publicUser(user, users = []) {
       id: friendName,
       username: friendName,
       avatar: "",
+      avatarStyle: normalizeAvatarStyle(),
+      equipped: [],
+      inventory: [],
       bio: "",
       createdAt: "",
       lastOnline: new Date(Date.now() - 1000 * 60 * 23).toISOString(),
@@ -1994,7 +1998,7 @@ app.get("/health", (_req, res) => {
   res.json({
     ok: true,
     app: "CUBIXIA",
-    version: process.env.CUBIXIA_DESKTOP_VERSION || "1.0.15",
+    version: process.env.CUBIXIA_DESKTOP_VERSION || "1.0.16",
     mode: process.env.CUBIXIA_DESKTOP ? "desktop-local-server" : "shared-server",
     time: new Date().toISOString()
   });
