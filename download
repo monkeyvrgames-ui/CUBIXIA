@@ -1,0 +1,9 @@
+node_modules/
+.env
+dist/
+build/
+tmp-render-data/
+tmp-render-data-2/
+data/users.corrupt-*
+cubixia-server.json
+cubixia-host.json

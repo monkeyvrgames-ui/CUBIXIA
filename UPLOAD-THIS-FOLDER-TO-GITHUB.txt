@@ -1,0 +1,45 @@
+UPLOAD THIS FOLDER TO GITHUB
+
+This is the clean CUBIXIA server source folder.
+
+Do upload:
+  server.js
+  package.json
+  package-lock.json
+  render.yaml
+  public/
+  data/
+
+Do NOT upload from the big project folder:
+  node_modules/
+  dist/
+  win-unpacked/
+  old EXE files
+  old ZIP files
+
+Those folders are why GitHub upload fails.
+
+After GitHub has this folder:
+
+1. Open Render.
+2. Create a new Web Service from the GitHub repo.
+3. Build Command:
+     npm ci --omit=dev
+4. Start Command:
+     npm run start:render
+5. Add environment variables:
+     SESSION_SECRET = any long random text
+     GMAIL_USER = your Gmail address
+     GMAIL_APP_PASSWORD = your Gmail app password
+6. Deploy.
+7. Open:
+     https://YOUR-SERVICE.onrender.com/health
+   It should show CUBIXIA and version 1.0.15.
+
+Owner account:
+  If the hosted data starts empty, log in as Tanklyplayz with any 6+ character
+  password to create/restore the owner account.
+
+Multiplayer:
+  Once the server is live, every EXE must use the same server URL. Put that URL
+  in cubixia-server.json beside the EXE, or build an EXE with that URL included.
