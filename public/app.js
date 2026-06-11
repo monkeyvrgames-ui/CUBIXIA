@@ -248,6 +248,7 @@ function normalizeHexColor(value, fallback) {
 }
 
 function normalizeAvatarStyle(style = {}) {
+  style = style && typeof style === "object" ? style : {};
   return {
     skin: normalizeHexColor(style.skin, DEFAULT_AVATAR_STYLE.skin),
     shirt: normalizeHexColor(style.shirt, DEFAULT_AVATAR_STYLE.shirt),
@@ -353,6 +354,7 @@ function moderationPanelTitle(user) {
 
 function normalizeClientUser(user) {
   if (!user || typeof user !== "object") return null;
+  const lastPlayed = user.lastPlayed && typeof user.lastPlayed === "object" ? user.lastPlayed : {};
   const normalized = {
     ...user,
     username: user.username || "Player",
@@ -367,10 +369,22 @@ function normalizeClientUser(user) {
     notifications: Array.isArray(user.notifications) ? user.notifications : [],
     friendProfiles: Array.isArray(user.friendProfiles) ? user.friendProfiles : [],
     progression: user.progression || { level: 1, xp: 0, streak: 0, title: "Explorer" },
+    achievements: Array.isArray(user.achievements) ? user.achievements : [],
     settings: user.settings || {},
     gameSettings: user.gameSettings || {},
     items: Array.isArray(user.items) ? user.items : [],
-    cubbux: Number(user.cubbux || 0)
+    cubbux: Number(user.cubbux || 0),
+    bio: user.bio || "",
+    createdAt: user.createdAt || new Date().toISOString(),
+    lastOnline: user.lastOnline || "",
+    currentGame: user.currentGame || "",
+    lastPlayed: {
+      id: lastPlayed.id || "cubixia-survival",
+      title: lastPlayed.title || "Cubixia: Survival",
+      xp: Number(lastPlayed.xp || 0),
+      currency: Number(lastPlayed.currency || 0),
+      progress: lastPlayed.progress || "Ready to play"
+    }
   };
   normalized.friendProfiles = normalized.friendProfiles.map((friend) => normalizeClientUser(friend) || {
     username: "Player",
@@ -1010,6 +1024,8 @@ function recover() {
 }
 
 function hub(user) {
+  user = normalizeClientUser(user);
+  if (!user) return login();
   currentUser = user;
   stopRuntime();
   const greeting = timeGreeting();
@@ -1328,6 +1344,8 @@ function gameDetail(gameId) {
 }
 
 function profile(user) {
+  user = normalizeClientUser(user);
+  if (!user) return login();
   currentUser = user;
   stopRuntime();
   app.innerHTML = `
@@ -1550,6 +1568,8 @@ async function moderationPanelPage(user) {
 }
 
 function publicProfile(user) {
+  user = normalizeClientUser(user);
+  if (!user) return;
   stopRuntime();
   const equippedItems = profileEquippedItems(user);
   const equippedCost = equippedItems.reduce((total, item) => total + Number(item.price || 0), 0);
@@ -1616,6 +1636,8 @@ function inferItemType(id = "") {
 }
 
 function avatarEditor(user) {
+  user = normalizeClientUser(user);
+  if (!user) return login();
   currentUser = user;
   stopRuntime();
   const style = normalizeAvatarStyle(user.avatarStyle);
@@ -3595,8 +3617,9 @@ function itemIcon(item) {
 }
 
 function blockAvatar(user, id = "", variant = "") {
-  const style = user.avatarStyle || {};
-  const equipped = new Set(user.equipped || []);
+  user = normalizeClientUser(user) || { avatarStyle: DEFAULT_AVATAR_STYLE, equipped: [] };
+  const style = normalizeAvatarStyle(user.avatarStyle);
+  const equipped = new Set(Array.isArray(user.equipped) ? user.equipped : []);
   return `
     <div class="block-avatar ${variant}" ${id ? `id="${id}"` : ""}>
       <span class="head" style="background:${style.skin || "#f0d0a7"}"></span>
@@ -3801,7 +3824,14 @@ function bindTwoStepLogin() {
     message.textContent = "";
     try {
       const data = await api("/api/login/verify-2fa", { method: "POST", body: JSON.stringify(Object.fromEntries(new FormData(form).entries())) });
-      routeUser(data);
+      try {
+        routeUser(data);
+      } catch (renderError) {
+        console.error("CUBIXIA 2-step render failed:", renderError);
+        currentUser = normalizeClientUser(data.user);
+        message.textContent = "CUBIXIA verified you, but the home page needs a refresh. Refresh the page and try again.";
+        submitButton.disabled = false;
+      }
     } catch (error) {
       message.textContent = error.message;
       submitButton.disabled = false;
@@ -4509,7 +4539,13 @@ async function doLogin(event) {
   try {
     const data = await api("/api/login", { method: "POST", body: JSON.stringify(payload) });
     if (data.twoStepRequired) return twoStepLogin(data);
-    routeUser(data);
+    try {
+      routeUser(data);
+    } catch (renderError) {
+      console.error("CUBIXIA login render failed:", renderError);
+      currentUser = normalizeClientUser(data.user);
+      message.textContent = "CUBIXIA logged in, but the home page needs a refresh. Refresh the page and try again.";
+    }
   } catch (error) {
     if (error.data?.moderation) return moderationScreen(error.data.user || null, error.data.moderation);
     message.textContent = error.message;

@@ -1998,7 +1998,7 @@ app.get("/health", (_req, res) => {
   res.json({
     ok: true,
     app: "CUBIXIA",
-    version: process.env.CUBIXIA_DESKTOP_VERSION || "1.0.16",
+    version: process.env.CUBIXIA_DESKTOP_VERSION || "1.0.17",
     mode: process.env.CUBIXIA_DESKTOP ? "desktop-local-server" : "shared-server",
     time: new Date().toISOString()
   });
