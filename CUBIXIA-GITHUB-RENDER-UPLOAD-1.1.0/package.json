@@ -1,0 +1,61 @@
+{
+  "name": "cubixia-platform-demo",
+  "version": "1.1.0",
+  "author": "CUBIXIA",
+  "description": "A CUBIXIA account, social, profile, and survival game platform demo.",
+  "main": "desktop-main.js",
+  "scripts": {
+    "start": "node server.js",
+    "start:render": "node server.js",
+    "desktop": "electron .",
+    "build:exe": "electron-builder --win portable"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "nodemailer": "^8.0.8",
+    "three": "^0.184.0"
+  },
+  "devDependencies": {
+    "electron": "^31.7.7",
+    "electron-builder": "^24.13.3"
+  },
+  "build": {
+    "appId": "com.cubixia.game",
+    "productName": "CUBIXIA",
+    "files": [
+      "desktop-main.js",
+      "server.js",
+      ".env",
+      "package.json",
+      "build/cubixia.ico",
+      "cubixia-server.example.json",
+      "cubixia-host.example.json",
+      "CUBIXIA-SHARED-SERVER-README.txt",
+      "CUBIXIA-WORLDWIDE-SETUP.txt",
+      "CUBIXIA-CUSTOM-SERVER-SETUP.txt",
+      "CUBIXIA-VPN-MULTIPLAYER-SETUP.txt",
+      "render.yaml",
+      "source-blends/**/*",
+      "public/**/*",
+      "data/**/*",
+      "!data/users.corrupt-*",
+      "node_modules/**/*"
+    ],
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "icon": "build/cubixia.ico",
+      "signAndEditExecutable": false,
+      "target": [
+        "portable"
+      ],
+      "artifactName": "CUBIXIA-LATEST-${version}.exe"
+    }
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
