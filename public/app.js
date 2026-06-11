@@ -140,7 +140,7 @@ function api(path, options = {}) {
     const data = await response.json().catch(() => ({}));
     if (!response.ok) {
       if (data.lockdown?.active) lockdownScreen(data.lockdown, data.user || currentUser);
-      const error = new Error(data.error || "Something went wrong.");
+      const error = new Error(data.error || data.message || `CUBIXIA request failed (${response.status}).`);
       error.data = data;
       throw error;
     }
